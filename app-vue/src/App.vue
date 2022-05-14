@@ -1,0 +1,5 @@
+<template>
+    <div>
+        Vue-App !
+    </div>
+</template>
