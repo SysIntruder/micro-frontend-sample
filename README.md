@@ -1,5 +1,7 @@
 # Micro Frontend & Module Federation feat. JS and Webpack 5
 
+![](Micro-Frontend.png) 
+
 ## Module Federation
 - Allows JS app to dynamically load code from another app.
 
