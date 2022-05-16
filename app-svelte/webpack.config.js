@@ -49,10 +49,6 @@ module.exports = {
       },
       shared: {
         ...dependencies,
-        svelte: {
-          singleton: true,
-          requiredVersion: dependencies.svelte,
-        },
       },
     }),
     new HtmlWebPackPlugin({

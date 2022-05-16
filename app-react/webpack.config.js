@@ -43,14 +43,6 @@ module.exports = {
       },
       shared: {
         ...dependencies,
-        react: {
-          singleton: true,
-          requiredVersion: dependencies.react,
-        },
-        "react-dom": {
-          singleton: true,
-          requiredVersion: dependencies["react-dom"],
-        }
       },
     }),
     new HtmlWebPackPlugin({
