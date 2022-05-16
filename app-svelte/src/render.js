@@ -1,8 +1,8 @@
 import './index.css'
 
-function render(Component, id) {
+function render(Component, element) {
     const app = new Component({
-        target: document.querySelector(id)
+        target: element
     })
 
     return app

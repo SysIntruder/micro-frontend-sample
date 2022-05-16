@@ -6,8 +6,8 @@ const title = `
     </div>
 `
 
-function Title(id) {
-    render(title, id)
+function Title(element) {
+    render(title, element)
 }
 
 export default Title

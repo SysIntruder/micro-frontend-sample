@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 
 import './index.css'
 
-function render(component, id) {
-    createApp(component).mount(id)
+function render(component, element) {
+    createApp(component).mount(element)
 }
 
 export default render

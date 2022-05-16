@@ -2,8 +2,8 @@ import SidebarTemplate from './SidebarTemplate.svelte'
 
 import render from './render'
 
-function Sidebar(id) {
-    return render(SidebarTemplate, id)
+function Sidebar(element) {
+    return render(SidebarTemplate, element)
 }
 
 export default Sidebar

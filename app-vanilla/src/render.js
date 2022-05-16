@@ -1,7 +1,7 @@
 import './index.css'
 
-function render(component, id) {
-    document.querySelector(id).innerHTML = component
+function render(component, element) {
+    element.innerHTML = component
 }
 
 export default render
