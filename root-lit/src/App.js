@@ -19,7 +19,7 @@ export class App extends LitElement {
             <div id="header-react"></div>
             <div id="title-vanilla"></div>
             <div>
-                Lit-App !
+                Lit-Root !
             </div>
             <div id="sidebar-svelte"></div>
             <div id="footer-vue"></div>
