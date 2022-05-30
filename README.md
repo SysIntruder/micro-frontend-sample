@@ -38,7 +38,6 @@
 7. Fault tolerance
 
 ## Cons
-
 1. Increased complexity
 
 2. Larger payload
@@ -48,7 +47,6 @@
 4. No standards
 
 ## Common Principles
-
 1. Domain Driven Design (DDD) approach
 
 2. Share nothing
