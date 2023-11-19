@@ -2,7 +2,15 @@
 
 ![](Micro-Frontend.png) 
 
-## Module Federation
+## How To
+
+- Each app-* and root-* are separaate repository, `npm i` each one of them
+- **Run all** app-* and **choose one** of root-*
+- Open your chosen root-* and see all component from app-* are loaded
+
+## About
+
+### Module Federation
 - Allows JS app to dynamically load code from another app.
 
 - Introduced in webpack 5.
@@ -11,7 +19,7 @@
 
 - Federated code can always load it's dependencies, but will attempt to use consumer's dependencies first.
 
-## Micro Frontend
+### Micro Frontend
 - Composing frontend using component built by different teams.
 
 - Using Module Federation to share frontend codes.
@@ -22,7 +30,7 @@
 
 - Component styles must be centered either in host/root or module.
 
-## Pros
+### Pros
 1. Reusability
 
 2. Increased delivery speed
@@ -37,7 +45,7 @@
 
 7. Fault tolerance
 
-## Cons
+### Cons
 1. Increased complexity
 
 2. Larger payload
@@ -46,7 +54,7 @@
 
 4. No standards
 
-## Common Principles
+### Common Principles
 1. Domain Driven Design (DDD) approach
 
 2. Share nothing
